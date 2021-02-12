@@ -2,5 +2,5 @@
 To get started with Template Groups see [Getting Started](./guides/getting-started.md).
 
 ## Resources
-* [JavaScript SDK](../sdk/js)
-* [Python SDK](../sdk/python)
+* Javascript SDK: `npm install @cognite/sdk-beta`
+* Python SDK: `pip install cognite-sdk-experimental`
