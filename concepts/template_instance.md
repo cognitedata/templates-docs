@@ -16,14 +16,6 @@ ConstantResolver(value=["Foo", "Bar"])
 ConstantResolver(value={ "test": 0.2, "bar": 0.5 })
 ```
 
-### Time Series Resolver
-The Time Series resolver, resolves a field of type `TimeSeries` (a [built-in type](./built-in-schema.md)) to a time series in CDF. All you have to say is the externalId of the time series.
-
-Example in Python:
-```python
-TimeSeriesResolver("some_ts_ext_id")
-```
-
 ### Synthetic Time Series Resolver
 The Synthetic Time Series resolver, resolves a field of type `TimeSeries` (a [built-in type](./built-in-schema.md)) to a synthetic time series in CDF. The only required argument is the synthetic time series expression, however it also supports setting the description, the unit, if it's a step series or if it's a string series.
 

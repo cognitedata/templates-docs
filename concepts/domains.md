@@ -1,4 +1,4 @@
-# Domain
+# Template Group
 A domain is a collection of data models. Normally there are different domains for different use cases. More specifically a domain consists of templates and types. A template is a data model that is later implemented by one or more template instances.
 
 ![](../assets/domains-overview.png)

@@ -1,5 +1,5 @@
-# Domains
-To get started with Domains see [Getting Started](./guides/getting-started.md).
+# Template Groups
+To get started with Template Groups see [Getting Started](./guides/getting-started.md).
 
 ## Resources
 * [JavaScript SDK](../sdk/js)

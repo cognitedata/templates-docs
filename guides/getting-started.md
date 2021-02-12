@@ -1,5 +1,5 @@
-# Getting Started with Domains
-To learn more about the concept of Domains see [this](../concepts/domains.md).
+# Getting Started with Template Groups
+To learn more about the concept of Template Groups see [this](../concepts/domains.md).
 
 ## Prerequisites
 1. You need to have a CDF account that has `group:list` scoped to at least yourself.
