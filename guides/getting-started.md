@@ -9,10 +9,10 @@ To learn more about the concept of Template Groups see [this](../concepts/domain
 The current UI can be found at https://dev.fusion.cogniteapp.com/{project}/domains.
 
 ## Using the Python SDK
-See the [Python SDK](../../sdk/python).
+`pip install cognite-sdk-experimental`
 
 ## Using the JS SDK
-See the [JavaScript SDK](../../sdk/js).
+`npm install @cognite/sdk-beta`
 
 ## Using the Grafana plugin
 This is a modified version of the official Cognite Grafana datasource with added support for templates.
