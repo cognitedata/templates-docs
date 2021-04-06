@@ -26,15 +26,8 @@ If you already have Grafana on your computer:
 
 ### Installation
 Run Grafana with the plugin using docker:
-1. Install docker
-    * Detailed instructions can be found [here](https://github.com/cognitedata/cognite-grafana-datasource/blob/master/instructions.md), but make sure to substitute the command in step 3 with the one mentioned in this guide.
-
-2. Create a directory called `grafana-plugins`
-3. Download and extract [this zip file](../assets/cognite-templates-grafana-datasource.zip) into `grafana-plugins`
-4. `cd` into `grafana-plugins` and run this command:
-
-    `docker run --name grafana -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins grafana/grafana`
-5. You show now have access Grafana at http://localhost:3000. Standard username/password for logging in is admin/admin.
+1. `docker run -p 3000:3000 --name grafana -e "GF_INSTALL_PLUGINS=https://github.com/cognitedata/templates-docs/raw/master/assets/cognite-templates-grafana-datasource.zip;cognitedata-templates-datasource" grafana/grafana`
+5. You should now have access to Grafana at http://localhost:3000. Standard username/password for logging in is admin/admin.
 
 ### Getting started
 Once installed, follow these steps to use the plugin:
