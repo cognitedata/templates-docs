@@ -3,7 +3,7 @@ To learn more about the concept of Template Groups see [this](../concepts/domain
 
 ## Prerequisites
 1. You need to have a CDF account that has `group:list` scoped to at least yourself.
-1. This account also needs to have a group named `domains-alpha`.
+1. This account also needs to have a group named `templates-preview`.
 
 ## Using the UI
 The current UI can be found at https://dev.fusion.cogniteapp.com/{project}/domains.
