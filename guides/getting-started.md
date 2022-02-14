@@ -25,16 +25,16 @@ If you already have Grafana on your computer:
 3. Restart Grafana
 
 ### Installation
-Run Grafana with the plugin using docker:
+Run Grafana with the plugin installed using docker:
 1. `docker run -p 3000:3000 --name grafana -e "GF_INSTALL_PLUGINS=https://github.com/cognitedata/templates-docs/raw/master/assets/cognite-templates-grafana-datasource.zip;cognitedata-templates-datasource" grafana/grafana`
 5. You should now have access to Grafana at http://localhost:3000. Standard username/password for logging in is admin/admin.
 
 ### Getting started
 Once installed, follow these steps to use the plugin:
-1. In Grafana, go to "Configuration", click Data Sources, then Add data source, and choose `Cognite Data Fusion - Templates`
-2. Give the data source a name, provide the name of the project and your API key. Make sure the API key is configured according to the prerequisites above.
+1. In Grafana, go to "Configuration", click Data Sources, then Add data source, and choose `Cognite Data Fusion (w/ Templates)`
+2. Give the data source a name, provide the name of the project and credentials.
 3. Click "Save & test"
 4. Create a dashboard with a panel, and choose the CDF Templates datasource you created in the previous step.
-5. Go to the "Template Query" tab, select your domain in the dropdown and have fun!
+5. Go to the "Template Query" tab, select your template group in the dropdown and have fun!
 
 ![](../assets/grafana-plugin-query-editor.png)
